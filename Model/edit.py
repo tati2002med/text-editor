@@ -15,9 +15,9 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
-with open(resource_path('Data\\probs.pkl'), 'rb') as f:
+with open(resource_path('Data/probs.pkl'), 'rb') as f:
     probs = pickle.load(f)
-with open(resource_path('Data\\vocab.pkl'), 'rb') as f:
+with open(resource_path('Data/vocab.pkl'), 'rb') as f:
     vocab = pickle.load(f)
 
 
